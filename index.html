@@ -1,8 +1,8 @@
 <!--
 Requirements
 [ yes ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
+[ yes ] Two ID Selectors
+[ yes ] Two Class Selectors
 [ yes ] Three Images
 
 Select ONE Additional Feature to Add  
@@ -19,22 +19,34 @@ Select ONE Additional Feature to Add
     <meta charset="utf-8" />
     <title>Unit 2 Project</title>
     <style>
-                  h1 {
-                    color: rgb(106, 90, 205);
-                  }
-                  h2 {
-                    color: rgb(100, 149, 237);
-                  }
-                  img {
-                    border: 10px solid #666699;
-                  }
-            # {
-      color: rgb(154, 55,18);
+      h1 {
+        color: rgb(106, 90, 205);
       }
-                  .austria {
-            background color: rgb(255, 78, 78);
-            color: rgb(255, 200, 200)
-            }
+      h2 {
+        color: rgb(100, 149, 237);
+      }
+      img {
+        border: 10px solid #666699;
+      }
+      h3 {
+        color: rgb(154, 55, 18);
+      }
+      .austria {
+        background-color: rgb(100, 149, 237);
+        color: rgb(240, 255, 255);
+      }
+      #Summer {
+        color: rgb(243, 142, 80);
+      }
+      #Winter {
+        color: rgb(32, 178, 170);
+      }
+      #Summer-Activites {
+        color: rgb(32, 178, 170);
+      }
+      #Winter-Activites {
+        color: rgb(25, 25, 112);
+      }
     </style>
   </head>
   <body>
@@ -45,13 +57,24 @@ Select ONE Additional Feature to Add
     />
     <h2><u>Info about Austria:</u></h2>
     <p>
-      Austria is a captivating destination located in Central Europe where culture, history, and natural
-      beauty come together. Cities like Vienna and Salzburg are steeped in
-      classical music and art, offering visitors grand palaces, beautiful
-      museums, and cultural scenes. The country’s majestic Alpine regions make it a very popular spot for skiing and hiking
-Austria's diverse geography also includes rolling hills, lakes, and the Danube River. Austria is a member of the European union and has a high
-standard of living, with a strong economy supported by tourism, manufacturing, and services. This country is also known
-for its enviormental sustainability and public transportation.
+      <strong class="austria">Austria</strong> is a captivating destination
+      located in Central Europe where culture, history, and natural beauty come
+      together. Cities like Vienna and Salzburg are steeped in classical music
+      and art, offering visitors grand palaces, beautiful museums, and cultural
+      scenes. The country’s majestic Alpine regions make it a very popular spot
+      for skiing and hiking <strong class="austria">Austria's</strong> diverse
+      geography also includes rolling hills, lakes, and the Danube River.
+      <strong class="austria">Austria</strong> is a member of the European union
+      and has a high standard of living, with a strong economy supported by
+      tourism, manufacturing, and services. This country is also known for its
+      enviormental sustainability and public transportation. Ultimately,
+      <strong class="austria">Austria</strong> is a place where the past and
+      present coexist in harmony, where the arts continue to flourish, and where
+      the natural world remains a constant source of inspiration and pride.
+      Whether through its music, history, landscapes, or the warmth of its
+      people, <strong class="austria">Austria</strong> invites all who visit to
+      discover the essence of a country that has long been a beacon of European
+      culture and hospitality.
     </p>
     <img
       src="https://admin.expatica.com/at/wp-content/uploads/sites/16/2023/11/kasespatzle.jpg"
@@ -59,12 +82,21 @@ for its enviormental sustainability and public transportation.
     />
     <h2><u>Food:</u></h2>
     <p>
-      Austrian cuisine is all about rich, filling dishes. Käsespätzle as shown
-      above, a cheesy noodle dish, is a popular comfort food. Other staples
-      include Wiener Schnitzel, and Tafelspitz, and various hearty stews. There
-      are also a variety of desserts such as Sachertorte, Germknodel, and
+      Austrian cuisine is a delightful reflection of the country's rich cultural
+      heritage, blending hearty, rustic flavors with elegant, refined dishes.
+      Rooted in the traditions of the Austro-Hungarian Empire, it incorporates
+      influences from many of Austria's neighboring countries, yet retains a
+      distinctly local character. The food is often rich, flavorful, and
+      comforting, making it perfect for the country's cool climate and
+      mountainous terrain. Käsespätzle as shown above, a cheesy noodle dish, is
+      a popular comfort food. Other staples include Wiener Schnitzel a breaded
+      and deep-fried veal cutlet that has become a national favorite, and more.
+      There are also a variety of desserts such as Sachertorte a rich and dense
+      chocolate cake with a layer of apricot jam, Germknodel, and
       kaiserschmarrn. The cuisine mixes simple, quality ingredients with bold
-      flavors, reflecting the country’s diverse regional influences.
+      flavors, reflecting the country’s diverse regional influences. In
+      conclusion, Austrian food isn't just about eating it's about experiencing
+      the traditions and flavors that have been passed down through generations.
     </p>
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTO75jU_OLrfyseB3ywRukutIRtSr1ReSGfQ&s"
@@ -84,7 +116,26 @@ for its enviormental sustainability and public transportation.
       vary by region. One of the most iconic peices for women is the dirndl,
       which is a fitted bodice, a full skirt, and an apron. While for men,
       lederhosen are popular; these are leather shorts typically paired with a
-      checkered shirt and suspenders.
+      checkered shirt and suspenders. Austrian culture is a fascinating blend of
+      tradition and modernity, where the past is deeply respected, but there is
+      also a forward-thinking approach to life. The country’s artistic and
+      intellectual history, its culinary delights, and its deep connection to
+      the natural world all come together to create a culture that is unique,
+      diverse, and deeply embedded in the fabric of European history. Whether
+      through its music, cuisine, or timeless traditions, Austria offers a
+      window into a culture that values beauty, craftsmanship, and a thoughtful
+      approach to life.
+    </p>
+    <h2 id="summer"><u>Things to do in the Summer:</u></h2>
+    <p id="Summer-Activites">
+      During the Summer you can hike in the Alps, swim in lakes, explore
+      charming villages, and enjoy outdoor festivals.
+    </p>
+
+    <h2 id="winter"><u>Things to do in the Winter:</u></h2>
+    <p id="Winter-Activites">
+      During the Winter you can ski in the Alps, visit Christmas markets, and
+      enjoy cozy alpine lodges.
     </p>
   </body>
 </html>
